@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="jdocview"
+         name="Generate JavaDoc"
+         point="pt.iscte.pidesco.view">
+      <view
+            class="pt.iscde.javadoc.internal.JavaDocView"
+            icon="icon.png">
+      </view>
+   </extension>
+
+</plugin>
